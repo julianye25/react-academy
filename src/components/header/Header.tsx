@@ -14,12 +14,12 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="/about" aria-label="Learn About Us">
+            <a href="#about" aria-label="Learn About Us">
               About
             </a>
           </li>
           <li>
-            <a href="/contact" aria-label="Contact Us">
+            <a href="#contact" aria-label="Contact Us">
               Contact
             </a>
           </li>

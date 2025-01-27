@@ -3,7 +3,7 @@ import { Card } from "../../shared/card/Card";
 
 export const AboutUs = () => {
   return (
-    <main className={styles.main}>
+    <main id="about" className={styles.main}>
       <div className={styles.container}>
         <h2>Quiénes somos</h2>
         <p className={styles.about}>
