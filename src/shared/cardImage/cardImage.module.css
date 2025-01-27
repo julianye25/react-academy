@@ -1,0 +1,50 @@
+.card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card_image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card_image1 {
+  background-image: url("../../public/assets/comoFunciona.jpeg");
+}
+
+.card_image2 {
+  background-image: url("../../public/assets/contactanos.jpeg");
+}
+
+.card_image3 {
+  background-image: url("../../public/assets/comunicate.jpeg");
+}
+
+.card_image4 {
+  background-image: url("../../public/assets/problemasTecnicos.jpeg");
+}
+
+.card_content {
+  padding: 16px;
+}
+
+.card_title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card_description {
+  font-size: 1rem;
+  color: #555;
+}

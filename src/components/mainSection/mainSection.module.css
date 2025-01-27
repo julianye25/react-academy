@@ -1,0 +1,76 @@
+/* Estilos principales */
+.main {
+  display: flex;
+  min-height: 100vh; /* Ocupa toda la pantalla */
+  background-color: #f5f7fa; /* Fondo suave */
+  font-family: "Arial", sans-serif; /* Fuente moderna */
+  color: #333; /* Color del texto */
+}
+
+/* Sección izquierda */
+.primera {
+  flex: 1; /* Ocupa la mitad del ancho */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #ffffff; /* Fondo blanco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.primera h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff; /* Azul destacado */
+}
+
+.primera p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background-color: #007bff; /* Azul primario */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.example:hover {
+  background-color: #0056b3; /* Azul más oscuro */
+  transform: scale(1.05); /* Efecto de zoom */
+}
+
+.linkExample {
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkExample:hover {
+  text-decoration: underline;
+}
+
+.imageSection {
+  flex: 1; /* Ocupa la mitad derecha */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Asegura que la imagen no se desborde */
+  background-color: #eaeef3; /* Fondo de apoyo */
+}
+
+.image {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+  height: 100%; /* Asegura que la imagen ocupe toda la altura */
+  object-fit: cover; /* Recorta la imagen para llenar la sección */
+  border: none;
+}

@@ -1,0 +1,44 @@
+/* Header.module.css */
+.header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu,
+.auth {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a,
+.auth a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a:hover,
+.auth a:hover {
+  text-decoration: underline;
+}

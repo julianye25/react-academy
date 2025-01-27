@@ -1,0 +1,31 @@
+.footer {
+    background-color: #f8f8f8; /* Color de fondo del footer */
+    color: #333;             /* Color del texto */
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;        /* Empuja el footer hacia el final */
+  }
+  
+  .containerFooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
