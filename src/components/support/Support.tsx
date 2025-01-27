@@ -30,7 +30,7 @@ const Support = () => {
   ];
 
   return (
-    <div id="support" className={styles.container_cards}>
+    <div id="contact" className={styles.container_cards}>
       {cards.map((card, index) => (
         <CardImage
           key={index}
